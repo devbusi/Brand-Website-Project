@@ -201,4 +201,56 @@
         transform: translateY(-8px) rotate(-45deg);
         
     }
+
+    /*Hero Section*/
+
+    .main{
+        background-color:#141414;
+    }
+
+     .main__container{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        align-items: center;
+        justify-self: center;
+        margin:0 auto;
+        height: 90vh;
+        background-color: #141414;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding:0 50px;
+    }
+
+    .main__content h1{
+        font-size: 4rem;
+        background-color: #abdbe3; 
+        background-image: linear-gradient(to top,#63d47f 0%,#d9e7eb 100%);
+        background-size: 100%;
+        -webkit-background-clip: text ;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color:transparent;
+
+
+    }
+
+    .main__content h2{
+        font-size: 4rem;
+        background-color: #abdbe3; 
+        background-image: linear-gradient(to top, #49b7f3  0%,#f65ec8 100%);
+        background-size: 100%;
+        -webkit-background-clip: text ;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color:transparent;
+
+
+    }
+
+    .main__content p{
+        margin-top: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
 }
