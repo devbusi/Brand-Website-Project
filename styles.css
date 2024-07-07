@@ -43,6 +43,7 @@
     font-size: 2rem;
 }
 
+/*logo*/
 .fa-gem{
     margin-right:0.5rem;
 }
@@ -69,7 +70,7 @@
     
 }
 
-.navbar__btn{
+/*.navbar__btn{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -203,7 +204,7 @@
     }
 }
 
-    /*Hero Section*/
+    /*Hero Section
 
     .main{
     background-color:#141414;
@@ -305,7 +306,7 @@
         width:80%;
     }
 
-    /* image resposiveness */
+    /* image resposiveness 
 
     @media screen and (max-width: 768px) {
         .main__container{
@@ -360,7 +361,7 @@
     }    
     
 
-/* Services Section CSS */
+/* Services Section CSS 
 
 .services{
     background: #141414;
@@ -479,7 +480,7 @@ flex-wrap: wrap;
     }
 }
 
-/*CSS Footer*/
+/*CSS Footer
 
 .footer__container{
     background-color: #141414;
@@ -544,7 +545,7 @@ flex-wrap: wrap;
 
 }
 
-/*Social Icons*/ 
+/*Social Icons
 
 .social__icon--link{
     color:#fff;
@@ -589,3 +590,6 @@ flex-wrap: wrap;
     color:#fff;
 
 }
+
+
+*/
