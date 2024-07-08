@@ -1,3 +1,4 @@
+/* navbar section*/
 *{
     box-sizing: border-box;
     margin:0;
@@ -43,9 +44,9 @@
     font-size: 2rem;
 }
 
-/*logo*/
-.fa-gem{
+.fa-cookie-bite{
     margin-right:0.5rem;
+    
 }
 
 .navbar__menu{
@@ -70,7 +71,7 @@
     
 }
 
-/*.navbar__btn{
+.navbar__btn{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -204,13 +205,13 @@
     }
 }
 
-    /*Hero Section
+    /*Hero Section*/
 
     .main{
     background-color:#141414;
     }
 
-.main__container{
+    .main__container{
         display: grid;
         grid-template-columns:1fr 1fr;
         align-items: center;
@@ -257,10 +258,11 @@
         color:#fff;
     }
 
-    .main__btn{
+    .main__btn {
         font-size: 1rem;
         background-image:linear-gradient(to top, #63d47f 0%,#d9e7eb 100%);
         padding: 14px 32px;
+        border:none;
         border-radius:4px;
         color:#fff;
         margin-top:2rem;
@@ -274,6 +276,7 @@
         position: relative;
         z-index: 2;
         color:#fff;
+        text-decoration: none;
         text-align: none;
     }
 
@@ -306,7 +309,7 @@
         width:80%;
     }
 
-    /* image resposiveness 
+    /* image resposiveness */
 
     @media screen and (max-width: 768px) {
         .main__container{
@@ -361,7 +364,7 @@
     }    
     
 
-/* Services Section CSS 
+  /*Services Section CSS */
 
 .services{
     background: #141414;
@@ -480,7 +483,7 @@ flex-wrap: wrap;
     }
 }
 
-/*CSS Footer
+/*CSS Footer*/
 
 .footer__container{
     background-color: #141414;
